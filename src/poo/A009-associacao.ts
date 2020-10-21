@@ -47,5 +47,5 @@ const maquina = new MaquinaEscrever('Maquina de Escrever');
 console.log(escritor.nome);
 console.log(maquina.nome);
 console.log(escritor.escrever());
-escritor.ferramenta = maquina;
+escritor.ferramenta = maquina; // Inversão de Dependência
 console.log(escritor.escrever());
